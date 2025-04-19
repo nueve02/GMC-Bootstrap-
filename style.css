@@ -1,0 +1,23 @@
+/* style.css */
+
+/* Héros */
+.hero {
+    height: 60vh;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .hero {
+      height: 40vh;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+  
